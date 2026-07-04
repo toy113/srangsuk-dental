@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- หน้าแรก - priority สูงสุด -->
+  <url>
+    <loc>https://srangsukdental.com/index.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- บริการ: ฟันปลอม -->
+  <url>
+    <loc>https://srangsukdental.com/services/fun-plom.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- บริการ: ขูดหินปูน -->
+  <url>
+    <loc>https://srangsukdental.com/services/khud-hin-pun.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- บริการ: อุดฟัน -->
+  <url>
+    <loc>https://srangsukdental.com/services/ud-fun.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- บริการ: ถอนฟัน / ผ่าฟันคุด -->
+  <url>
+    <loc>https://srangsukdental.com/services/thon-fun-pha-fun-khud.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- บริการ: ฟอกสีฟัน -->
+  <url>
+    <loc>https://srangsukdental.com/services/fok-si-fun.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- บริการ: X-ray ฟัน 3 มิติ / CT scan -->
+  <url>
+    <loc>https://srangsukdental.com/services/xray-3d-ct-scan.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- บริการ: อุดปิดช่องว่างฟัน -->
+  <url>
+    <loc>https://srangsukdental.com/services/ud-pid-chong-wang-fun.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- บริการ: จัดฟัน โลหะ / ใส -->
+  <url>
+    <loc>https://srangsukdental.com/services/jad-fun.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- บริการ: วีเนียร์ / ครอบฟัน -->
+  <url>
+    <loc>https://srangsukdental.com/services/veneer-krob-fun.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- บริการ: รากฟันเทียม -->
+  <url>
+    <loc>https://srangsukdental.com/services/rak-fun-tiam.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- บริการ: รักษารากฟัน -->
+  <url>
+    <loc>https://srangsukdental.com/services/raksa-rak-fun.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- บริการ: รักษาฟันเด็ก -->
+  <url>
+    <loc>https://srangsukdental.com/services/raksa-fun-dek.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- หน้าพิเศษ: ประกันสังคมทำฟันฟรี - priority สูง -->
+  <url>
+    <loc>https://srangsukdental.com/services/prakan-sangkhom-tham-fun-free.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+</urlset>

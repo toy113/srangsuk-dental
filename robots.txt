@@ -1,0 +1,35 @@
+User-agent: *
+Allow: /
+Allow: /services/
+Allow: /sitemap.xml
+Disallow: /admin/
+Disallow: /.git/
+
+Sitemap: https://srangsukdental.com/sitemap.xml
+
+# ให้ Google crawl ได้ เฉพาะหน้าที่ต้องการ
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 2
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+# ห้ามบอท spam
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Allow: /
+Crawl-delay: 5
+
+User-agent: DotBot
+Disallow: /
+
+# Request-rate
+Request-rate: 1/2s
