@@ -48,6 +48,46 @@
   }
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "คลินิกทันตกรรมสร้างสุขอยู่ตรงไหนของท่าอิฐ นนทบุรี?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "คลินิกตั้งอยู่ที่ 80 ซอยท่าอิฐ 4 ตำบลบางรักน้อย อำเภอเมืองนนทบุรี ใกล้สถานี MRT บางรักน้อย–ท่าอิฐ (สายสีม่วง) และข้าง Lotus's Go Fresh เดินทางสะดวกจากย่านท่าอิฐและรัตนาธิเบศร์"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "ทำฟันท่าอิฐที่คลินิกสร้างสุข ใช้สิทธิประกันสังคมได้ไหม?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ได้ครับ คลินิกรับสิทธิประกันสังคมทำฟันฟรี วงเงิน 900 บาทต่อปี ครอบคลุมถอนฟัน อุดฟัน ขูดหินปูน และผ่าฟันคุด โดยไม่ต้องสำรองจ่าย"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "คลินิกทันตกรรมท่าอิฐ นนทบุรี เปิดกี่โมงถึงกี่โมง?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "เปิดให้บริการทุกวัน แนะนำโทรสอบถามเวลานัดหมายล่วงหน้าได้ที่ 065-455-5898 หรือแอด Line OA เพื่อความสะดวกในการจองคิว"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "คลินิกทันตกรรมสร้างสุขมีทันตแพทย์เฉพาะทางไหม?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "มีครับ ทีมแพทย์ 8 ท่านครอบคลุมทันตกรรมทั่วไป ทันตกรรมจัดฟัน และรากฟันเทียม/ศัลยกรรมช่องปากโดยเฉพาะ"
+      }
+    }
+  ]
+}
+</script>
 <style>
 :root{
   --navy:#1b3a6b;          /* น้ำเงินเข้มจากโลโก้ */
@@ -114,7 +154,8 @@ nav{display:flex;align-items:center;justify-content:space-between;padding:12px 2
 .hero{position:relative;background:linear-gradient(135deg,var(--cream) 0%,#fff4dc 55%,#ffe9c2 100%);color:var(--ink);overflow:hidden;padding:56px 0 0}
 .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;position:relative;z-index:2;max-width:1140px;padding-bottom:60px}
 .hero .eyebrow{display:inline-flex;align-items:center;gap:8px;background:rgba(224,162,38,.12);border:1px solid rgba(224,162,38,.35);color:var(--gold);padding:7px 16px;border-radius:999px;font-size:.85rem;font-weight:600;margin-bottom:20px;animation:fadeUp .7s both}
-.hero h1{font-size:clamp(2.1rem,4.6vw,3.1rem);line-height:1.25;margin-bottom:16px;color:var(--navy);animation:fadeUp .7s .1s both}
+.hero h1{font-size:clamp(1.7rem,4vw,2.5rem);line-height:1.25;margin-bottom:16px;color:var(--navy);animation:fadeUp .7s .1s both}
+.hero h1 .hero-sub{display:block;font-family:'Mali',cursive;font-weight:600;font-size:clamp(1.5rem,3.6vw,2.3rem);color:var(--gold);margin-top:6px}
 .hero h1 .heart{display:inline-block;animation:beat 1.6s ease-in-out infinite}
 .hero-desc{color:var(--muted);font-size:1.05rem;max-width:480px;margin-bottom:32px;animation:fadeUp .7s .2s both}
 .btn-outline-navy{background:#fff;color:var(--navy);border:1.5px solid var(--line);box-shadow:0 4px 14px -6px rgba(27,58,107,.15)}
@@ -331,7 +372,7 @@ footer .copy{font-size:.82rem;color:#7c8aa8;margin-top:14px}
   <div class="wrap hero-grid">
     <div class="hero-text">
       <span class="eyebrow">🦷 คลินิกทันตกรรม · ท่าอิฐ นนทบุรี</span>
-      <h1>ดูแลด้วยหัวใจ <span class="heart">❤</span><br>ใส่ใจทุกสัมผัส</h1>
+      <h1>คลินิกทันตกรรมท่าอิฐ นนทบุรี<br><span class="hero-sub">ดูแลด้วยหัวใจ <span class="heart">❤</span> ใส่ใจทุกสัมผัส</span></h1>
       <p class="hero-desc">หมอมือเบาไม่เจ็บ เน้นความสะอาดปราศจากเชื้อ ผลงานประณีต ใส่ใจทุกขั้นตอน — คลินิกที่อยากให้ทุกคนเข้าถึงการทำฟันที่ดีและจริงใจ</p>
       <div class="hero-stats">
         <div><b>100%</b><span>แนะนำให้มา</span></div>
@@ -502,6 +543,33 @@ footer .copy{font-size:.82rem;color:#7c8aa8;margin-top:14px}
         <a class="ch-btn ch-ig" href="https://www.instagram.com/srangsuk_dental_clinic/" target="_blank"><span class="e">📷</span> Instagram</a>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq-home" id="faq" style="background:#fff;padding:70px 22px">
+  <div class="wrap" style="max-width:760px">
+    <div class="sec-head reveal">
+      <span class="kicker">คำถามที่พบบ่อย</span>
+      <h2>คำถามที่พบบ่อยเกี่ยวกับคลินิกทันตกรรมท่าอิฐ</h2>
+      <div class="deco-line"></div>
+    </div>
+    <details style="background:var(--cream);border:1px solid var(--line);border-radius:14px;margin-bottom:12px;padding:16px 20px">
+      <summary style="cursor:pointer;font-weight:700;color:var(--navy)">คลินิกทันตกรรมสร้างสุขอยู่ตรงไหนของท่าอิฐ นนทบุรี?</summary>
+      <p style="margin-top:10px;color:var(--muted)">คลินิกตั้งอยู่ที่ 80 ซอยท่าอิฐ 4 ตำบลบางรักน้อย อำเภอเมืองนนทบุรี ใกล้สถานี MRT บางรักน้อย–ท่าอิฐ (สายสีม่วง) และข้าง Lotus's Go Fresh เดินทางสะดวกจากย่านท่าอิฐและรัตนาธิเบศร์</p>
+    </details>
+    <details style="background:var(--cream);border:1px solid var(--line);border-radius:14px;margin-bottom:12px;padding:16px 20px">
+      <summary style="cursor:pointer;font-weight:700;color:var(--navy)">ทำฟันท่าอิฐที่คลินิกสร้างสุข ใช้สิทธิประกันสังคมได้ไหม?</summary>
+      <p style="margin-top:10px;color:var(--muted)">ได้ครับ คลินิกรับสิทธิประกันสังคมทำฟันฟรี วงเงิน 900 บาทต่อปี ครอบคลุมถอนฟัน อุดฟัน ขูดหินปูน และผ่าฟันคุด โดยไม่ต้องสำรองจ่าย</p>
+    </details>
+    <details style="background:var(--cream);border:1px solid var(--line);border-radius:14px;margin-bottom:12px;padding:16px 20px">
+      <summary style="cursor:pointer;font-weight:700;color:var(--navy)">คลินิกทันตกรรมท่าอิฐ นนทบุรี เปิดกี่โมงถึงกี่โมง?</summary>
+      <p style="margin-top:10px;color:var(--muted)">เปิดให้บริการทุกวัน แนะนำโทรสอบถามเวลานัดหมายล่วงหน้าได้ที่ 065-455-5898 หรือแอด Line OA เพื่อความสะดวกในการจองคิว</p>
+    </details>
+    <details style="background:var(--cream);border:1px solid var(--line);border-radius:14px;margin-bottom:12px;padding:16px 20px">
+      <summary style="cursor:pointer;font-weight:700;color:var(--navy)">คลินิกทันตกรรมสร้างสุขมีทันตแพทย์เฉพาะทางไหม?</summary>
+      <p style="margin-top:10px;color:var(--muted)">มีครับ ทีมแพทย์ 8 ท่านครอบคลุมทันตกรรมทั่วไป ทันตกรรมจัดฟัน และรากฟันเทียม/ศัลยกรรมช่องปากโดยเฉพาะ</p>
+    </details>
   </div>
 </section>
 
