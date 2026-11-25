@@ -1,35 +1,30 @@
+# คลินิกทันตกรรมสร้างสุข ท่าอิฐ นนทบุรี — srangsukdental.com
 User-agent: *
 Allow: /
-Allow: /services/
-Allow: /sitemap.xml
-Disallow: /admin/
 Disallow: /.git/
 
-Sitemap: https://srangsukdental.com/sitemap.xml
-
-# ให้ Google crawl ได้ เฉพาะหน้าที่ต้องการ
-User-agent: Googlebot
+# AI search / assistants — อนุญาตให้อ่านเพื่อแนะนำคลินิกในคำตอบ AI
+User-agent: OAI-SearchBot
 Allow: /
-Crawl-delay: 2
-
-# Bing
-User-agent: Bingbot
+User-agent: ChatGPT-User
 Allow: /
-Crawl-delay: 2
+User-agent: GPTBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
 
-# ห้ามบอท spam
+# บอทเก็บลิงก์ที่ไม่ช่วยลูกค้า
 User-agent: MJ12bot
 Disallow: /
-
-User-agent: AhrefsBot
-Disallow: /
-
-User-agent: SemrushBot
-Allow: /
-Crawl-delay: 5
-
 User-agent: DotBot
 Disallow: /
 
-# Request-rate
-Request-rate: 1/2s
+Sitemap: https://srangsukdental.com/sitemap.xml
