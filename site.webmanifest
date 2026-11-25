@@ -1,0 +1,13 @@
+{
+  "name": "คลินิกทันตกรรมสร้างสุข ท่าอิฐ นนทบุรี",
+  "short_name": "สร้างสุข",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fffaf0",
+  "theme_color": "#1b3a6b",
+  "lang": "th",
+  "icons": [
+    {"src": "/assets/brand/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "/assets/brand/icon-512.png", "sizes": "512x512", "type": "image/png"}
+  ]
+}
